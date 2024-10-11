@@ -1,0 +1,24 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+int main()
+{
+    int n, i=0, num ;
+    scanf("%d",&n);
+    
+    for(num = 1; i <= n; num++ ) {
+        if(num% 2 == 0) {
+        printf("%d,", num);
+        i++;
+        } 
+     
+}
+    return 0;
+}
